@@ -1,0 +1,129 @@
+/* Parallax */
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("https://images.indianexpress.com/2022/04/dogbreed_AP.jpg");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_16x9.jpg?w=1200");
+    min-height: 500px;
+    text-align: right;
+    padding: 60px;
+
+  }
+  .icons{
+    padding: 0 10px 0 10px;
+    color: grey;
+  }
+  
+  .bgimg-3 {
+    background-image: url("https://images.indianexpress.com/2022/04/dogbreed_AP.jpg");
+    min-height: 400px;
+  }
+  
+  
+  
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #fff;
+  }
+  .ah1
+  {
+    padding-bottom: 45px;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+/* Fade In */
+.fadeInLeft
+{
+    -webkit-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+}
+@-webkit-keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+        -webkit-filter: blur(5px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -webkit-filter: blur(0px);
+    }
+}
+@-moz-keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        -moz-transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+@-o-keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        -o-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.hidden:nth-child(1){
+  animation-delay: 400ms;
+}
+.hidden:nth-child(2){
+  animation-delay: 600ms;
+}
+.hidden:nth-child(3){
+  animation-delay: 800ms;
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  padding: 60px 60px 0 60px;
+}
+.forma{
+  width: 50%;
+  margin:0 150px 0 325px;
+}
