@@ -127,3 +127,39 @@ footer{
   width: 50%;
   margin:0 150px 0 325px;
 }
+.btn
+{
+  border-color: white;
+  color: #fff;
+  border-width: 1px;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.25rem;
+  width: 45%;
+  margin-right:  100px;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+.btn:hover
+{
+  background-color: #fff;
+  color:black;
+
+}
+.btn-success
+{
+  color: #fff;
+  border-width: 1px;
+  padding: 7px;
+  font-size: 1.25rem;
+  width: 7%;
+  margin-left: 95px;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+.btn-success:hover
+{
+  background-color: #fff;
+  color:green;
+
+}
