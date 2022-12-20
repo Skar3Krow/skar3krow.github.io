@@ -13,4 +13,4 @@ const hiddenElements = new IntersectionObserver(entries => {
     })
 })
 
-hiddenElements.observe(document.querySelector("h1"));
+hiddenElements.observe(document.querySelector(".abtus"));
