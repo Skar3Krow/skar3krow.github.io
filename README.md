@@ -1,4 +1,6 @@
 # Furrier
-Doobie Doobie Doo Dah - Perrry, the Platypus
-Ducky MOMO
-Candice and Jeremy
+
+## TO-DO
+*Navbar*
+*Blog Page - Beautification*
+*Main Page and Others - Content*
