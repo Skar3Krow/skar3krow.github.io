@@ -1,0 +1,56 @@
+body
+{
+    background-color: #FAEAB1;
+}
+.flex
+{
+    text-align: center;
+    justify-content: center;
+    padding: 1.5625rem;
+}
+.d-flex
+{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.mh1
+{
+    font-size: 6rem;
+    font-family: 'Rubik',sans-serif;
+    padding-bottom: 7.5rem;
+}
+h1{
+    padding-top: 2.5rem;
+}
+hr
+{
+    background-color:transparent;
+    border-style:none;
+    border-top-style:dotted;
+    border-width: 7px;
+    border-color:red;
+    height: 0.5rem;
+    margin-top: 5rem;
+    width:5%;
+    margin-left: 48%;
+}
+
+.img-main
+{
+    border-radius: 100%;
+    /* margin: 120px 0px; */
+    /* transform: translateX(100%); */
+}
+/* .one
+{
+    text-align: center;
+} */
+.ab_content
+{
+    padding: 5rem 15rem;
+    color: black;
+    opacity: 1;
+    text-align: center;
+}
