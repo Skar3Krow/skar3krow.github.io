@@ -69,9 +69,14 @@ h1{
 } */
 .ab_content
 {
-    padding: 5% 20%;
+    padding: 4% 20%;
     color: black;
     text-align: center;
+}
+.sech4
+{
+    text-align: center;
+    padding: 20px 0 0 0;
 }
 .fadeInTop
 {
@@ -85,18 +90,7 @@ h1{
     animation: fadeInTop
  1.2s both;
 }
-@-webkit-keyframes fadeInTop {
-    0%{
-        opacity: 0;
-        -webkit-transform: translateX(150px);
-        -webkit-filter: blur(5px);
-    }
-    100%{
-        opacity: 1;
-        -webkit-transform: translateX(0);
-        -webkit-filter: blur(0px);
-    }
-}
+
 @-moz-keyframes fadeInTop {
     0%{
         opacity: 0;
@@ -127,9 +121,29 @@ h1{
         transform: translateY(0);
     }
 }
+.appearInTop
+{
+    display: block;
+    -webkit-animation: appearInTop
+    1.2s both;
+    -moz-animation: appearInTop
+ 1.2s both;
+    -o-animation: appearInTop
+ 1.2s both;
+    animation: appearInTop
+ 1.2s both;
+}
+@-webkit-keyframes appearInTop {
+    0%{
+        -webkit-transform: translateY(200px);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+    }
+}
 .ceoname:nth-child(1)
 {
-    animation-delay: 600ms;
+    animation-delay: 200ms;
 }
 .ceoname:nth-child(2)
 {
@@ -143,15 +157,19 @@ h1{
 {
     animation-delay: 1200ms;
 }
-.ceoname:nth-child(5)
+.zinger
 {
-    animation-delay: 1200ms;
+    animation-delay: 1000ms;
 }
-.intone:nth-child(0)
+.intone
 {
-    animation-delay: 1800ms;
+    animation-delay: 600ms;
 }
-.intone:nth-child(1)
+.inttwo
 {
-    animation-delay: 3000ms;
+    animation-delay: 1100ms;
+}
+footer{
+    justify-content: center;
+    text-align: center;
 }
