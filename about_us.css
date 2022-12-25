@@ -2,6 +2,15 @@ body
 {
     background-color: #FAEAB1;
 }
+.logo
+{
+width: 8rem;
+height: 6rem;
+}
+.container-fluid
+{
+    padding: 0px;
+}
 .flex
 {
     text-align: center;
@@ -133,7 +142,7 @@ h1{
     animation: appearInTop
  1.2s both;
 }
-@-webkit-keyframes appearInTop {
+@keyframes appearInTop {
     0%{
         -webkit-transform: translateY(200px);
     }
