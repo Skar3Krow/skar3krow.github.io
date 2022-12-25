@@ -2,6 +2,15 @@ body
 {
     background-color: #FAEAB1;
 }
+.logo
+{
+width: 8rem;
+height: 6rem;
+}
+.container-fluid
+{
+    padding: 0px;
+}
 .flex
 {
     text-align: center;
