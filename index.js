@@ -12,6 +12,7 @@ const hiddenElements = new IntersectionObserver(entries => {
         }
     })
 })
+hiddenElements.observe(document.querySelector(".abtus"));
 
 document.getElementById("submit").addEventListener("click", ()=>{
     console.log("rev")
@@ -21,4 +22,4 @@ document.getElementById("submit").addEventListener("click", ()=>{
 })
 
 
-hiddenElements.observe(document.querySelector(".abtus"));
+

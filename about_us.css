@@ -82,6 +82,14 @@ h1{
     color: black;
     text-align: center;
 }
+.card-img-top
+{
+    height:7rem;
+}
+.card-text
+{
+  opacity: 0;
+}
 .sech4
 {
     text-align: center;
