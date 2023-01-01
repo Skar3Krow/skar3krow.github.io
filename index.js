@@ -13,4 +13,12 @@ const hiddenElements = new IntersectionObserver(entries => {
     })
 })
 
+document.getElementById("submit").addEventListener("click", ()=>{
+    console.log("rev")
+    fetch('http://localhost:8080/api/sub', {method: "POST", mode: 'cors', body: {email: document.getElementById("mail").value}}).then((response) => response.json()).then((data) => {
+        console.log(data);
+    });
+})
+
+
 hiddenElements.observe(document.querySelector(".abtus"));
